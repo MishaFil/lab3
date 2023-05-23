@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Введите число а:");
+            double? a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите число b:");
             Console.WriteLine("1. Сумма");
             Console.WriteLine("2. Вычитание");
